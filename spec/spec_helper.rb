@@ -1,5 +1,6 @@
 require 'capybara/rspec'
 require 'capybara/dsl'
+require 'rspec'
 
 RSpec.configure do |config|
   config.include Capybara::DSL
